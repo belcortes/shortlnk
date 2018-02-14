@@ -32,7 +32,7 @@ export default class LinksList extends React.Component {
 		if ( this.state.links.length === 0 ) {
 			return (
 				<div className='item'>
-					<p className='item__status-message'>There are no hidden links at the moment.</p>
+					<p className='item__status-message'>No links found</p>
 				</div>
 			)
 		} else {
